@@ -17,6 +17,6 @@ public class UserController {
     @RequestMapping("/query")
     @ResponseBody
     public String query(String username){
-        return "query : ... ... ";
+        return "query successful";
     }
 }
