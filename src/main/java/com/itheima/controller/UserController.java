@@ -13,4 +13,10 @@ public class UserController {
         System.out.println("username: " + username + ", password: " + password);
         return "login successful";
     }
+
+    @RequestMapping("/query")
+    @ResponseBody
+    public String query(String username){
+        return "query : ... ... ";
+    }
 }
