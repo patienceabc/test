@@ -19,4 +19,10 @@ public class UserController {
     public String query(String username){
         return "query successful";
     }
+
+    @RequestMapping("/logout")
+    @ResponseBody
+    public String logout(){
+        return "logout successful";
+    }
 }
