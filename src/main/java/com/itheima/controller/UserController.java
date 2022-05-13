@@ -13,4 +13,10 @@ public class UserController {
         System.out.println("username: " + username + ", password: " + password);
         return "login successful";
     }
+
+    @RequestMapping("/logout")
+    @ResponseBody
+    public String logout(){
+        return "logout successful";
+    }
 }
